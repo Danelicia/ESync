@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Lembrete: para qualquer mudança de código, revisão, bug, deploy ou análise, use a skill agent-router antes de agir e escolha o agente e o modelo mais barato que resolve.'"
+          }
+        ]
+      }
+    ]
+  }
+}
